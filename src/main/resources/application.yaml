@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: OldFashionPound
+
+
+operation:
+  config:
+    pattern: "^\\d+p \\d+s \\d+d$"
+  conversion:
+    p:
+      s: 20
+    s:
+      d: 12
+    
+
