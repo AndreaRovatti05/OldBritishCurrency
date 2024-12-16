@@ -1,0 +1,150 @@
+{
+	"info": {
+		"_postman_id": "0672ff1d-9db3-42f5-9b2b-7d6324f37cda",
+		"name": "OldBritishCurrency",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10256972"
+	},
+	"item": [
+		{
+			"name": "additionOperation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstOp\" : \"5p 17s 8d\",\r\n    \"secondOp\" : \"3p 4s 10d\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/additionOperation",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"additionOperation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "subtractionOperation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstOp\" : \"5p 17s 8d\",\r\n    \"secondOp\" : \"3p 4s 10d\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/subtractionOperation",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"subtractionOperation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "subtractionOperation Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstOp\" : \"5p 17s 8d\",\r\n    \"secondOp\" : \"3p 4s 10d\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/subtractionOperation",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"subtractionOperation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "multiplicationOperation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstOp\" : \"5p 17s 8d\",\r\n    \"secondOp\" : \"2\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/multiplicationOperation",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"multiplicationOperation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "divisionOperation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstOp\" : \"18p 16s 1d\",\r\n    \"secondOp\" : \"15\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/divisionOperation",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"divisionOperation"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
